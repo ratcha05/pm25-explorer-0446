@@ -1,0 +1,61 @@
+
+name: dstoolbox
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  # environment & notebooks
+  - jupyterlab
+  - ipykernel
+  - nbstripout
+  - jupytext
+  - pytest
+  - ruff
+  # data acquisition
+  - requests
+  - truststore
+  - python-dotenv
+  - beautifulsoup4
+  # storage & query
+  - python-duckdb>=1.5,<2
+  - pyarrow
+  # wrangling
+  - pandas
+  - polars
+  # profiling & data quality
+  - ydata-profiling
+  - setuptools<81
+  - pandera
+  - missingno
+  # visualization
+  - seaborn
+  - altair
+  - vl-convert-python
+  - plotly
+  - datashader
+  # statistics
+  - scipy
+  - statsmodels
+  - ruptures
+  - pingouin
+  # multivariate & outliers
+  - scikit-learn
+  - umap-learn
+  - pyod
+  - imbalanced-learn
+  # synthetic data
+  - faker
+  # spatial
+  - geopandas
+  - folium
+  - libpysal
+  - esda
+  - pykrige
+  # communication
+  - streamlit
+  - papermill
+  - pip
+  - pip:
+      - skimpy
+      - pygwalker
+      - sdv
