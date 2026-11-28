@@ -26,7 +26,7 @@ except ImportError:
 # 1. ตั้งค่าพื้นฐาน
 # ==========================================
 
-URL = URL = URL = "http://air4thai.pcd.go.th/services/getNewAQI_JSON.php"
+URL = "https://air4thai.pcd.go.th/services/getNewAQI_JSON.php"
 
 HEADERS = {
     "User-Agent": "pm25-explorer/0.1 (student project)"
