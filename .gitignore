@@ -222,3 +222,6 @@ data/
 *.duckdb
 *.duckdb.wal
 .env
+
+# Backup from previous lab
+backup-week02/
